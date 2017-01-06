@@ -1,0 +1,2 @@
+defaultmake:
+	g++ duplicatedLinkedList.cpp
