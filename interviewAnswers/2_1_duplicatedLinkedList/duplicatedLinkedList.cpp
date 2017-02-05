@@ -5,6 +5,12 @@
 
 using namespace std;
 
+struct node
+{
+	node* prev;
+	int value;
+};
+
 void removeDuplicated(std::list<int>& aList)
 {
 	std:vector<int> checkBuffer;
